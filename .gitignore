@@ -1,2 +1,4 @@
 base
+*.pyc
 assets/__pycache__
+.DS_Store
