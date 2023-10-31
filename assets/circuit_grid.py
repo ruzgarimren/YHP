@@ -92,7 +92,7 @@ class CircuitGrid(pygame.sprite.RenderPlain):
             case pygame.K_y: self.handle_input_y(),
             case pygame.K_z: self.handle_input_z(),
             case pygame.K_h: self.handle_input_h(),
-            case pygame.K_SPACE: self.handle_input_delete(),
+            case pygame.K_BACKSPACE: self.handle_input_delete(),
             case pygame.K_c: self.handle_input_ctrl(),
             case pygame.K_UP: self.handle_input_move_ctrl(MOVE_UP),
             case pygame.K_DOWN: self.handle_input_move_ctrl(MOVE_DOWN),
