@@ -1,7 +1,7 @@
 import pygame
 
-from circuit_grid import CircuitGrid
-import globals
+from assets.circuit_grid import CircuitGrid
+from assets import globals
 
 pygame.init()
 screen = pygame.display.set_mode((1200, 750))
@@ -30,10 +30,8 @@ def main():
         # draw demonstration    
         pygame.display.flip()
         circuit_grid.draw(screen)
-    
 
 
-    #
 
 if __name__ == '__main__':
     main()

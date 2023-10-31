@@ -1,6 +1,8 @@
 import pygame
 
-from . import globals, resources
+from assets import globals
+
+from assets import resources
 
 def draw_statevector_grid(screen):
     font = resources.Font()
