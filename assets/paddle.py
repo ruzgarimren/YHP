@@ -1,6 +1,6 @@
 import pygame
 
-from .assets import globals
+from assets import globals
 
 class Paddle(pygame.sprite.Sprite):
     def __init__(self, x_pos=0, y_pos=0):

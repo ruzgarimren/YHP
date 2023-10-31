@@ -81,9 +81,13 @@ class CircuitGrid(pygame.sprite.RenderPlain):
     def handle_input(self, key):
         match (key):
             case pygame.K_a: self.move_to_adjacent_node(MOVE_LEFT),
+            case pygame.K_LEFT: self.move_to_adjacent_node(MOVE_LEFT),
             case pygame.K_d: self.move_to_adjacent_node(MOVE_RIGHT),
+            case pygame.K_RIGHT: self.move_to_adjacent_node(MOVE_RIGHT),
             case pygame.K_w: self.move_to_adjacent_node(MOVE_UP),
+            case pygame.K_UP: self.move_to_adjacent_node(MOVE_UP),
             case pygame.K_s: self.move_to_adjacent_node(MOVE_DOWN),
+            case pygame.K_DOWN: self.move_to_adjacent_node(MOVE_DOWN),
             case pygame.K_x: self.handle_input_x(),
             case pygame.K_y: self.handle_input_y(),
             case pygame.K_z: self.handle_input_z(),
