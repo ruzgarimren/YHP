@@ -1,7 +1,7 @@
 import pygame
 import qiskit
 
-from . import globals
+import globals
 
 class Computer:
     def __init__(self):

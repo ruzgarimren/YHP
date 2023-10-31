@@ -1,7 +1,7 @@
 import pygame
 
-from assets.circuit_grid import CircuitGrid
-from assets import globals
+from circuit_grid import CircuitGrid
+import globals
 
 pygame.init()
 screen = pygame.display.set_mode((1200, 750))

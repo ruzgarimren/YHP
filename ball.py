@@ -1,8 +1,7 @@
 import random
-
 import pygame
 
-from . import globals
+import globals
 
 class Ball(pygame.sprite.Sprite):
     def __init__(self):

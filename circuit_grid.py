@@ -2,7 +2,7 @@ import numpy as np
 import pygame
 import qiskit
 
-from . import globals, resources, node_types
+import globals, resources, node_types
 
 GRID_WIDTH = 66
 GRID_HEIGHT = 66

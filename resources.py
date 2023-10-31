@@ -2,12 +2,12 @@ import os
 
 import pygame
 
-from . import globals
+import globals
 
 data_dir = os.path.split(os.path.abspath(__file__))[0]
 
 def load_image(name, colorkey=None):
-    fullname = os.path.join(data_dir, "images", name)
+    fullname = os.path.join(data_dir, "assets/images", name)
     image = pygame.image.load(fullname)
     if colorkey is not None:
         if colorkey == -1:
