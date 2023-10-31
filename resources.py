@@ -1,7 +1,6 @@
 import os
 
 import pygame
-
 import globals
 
 data_dir = os.path.split(os.path.abspath(__file__))[0]

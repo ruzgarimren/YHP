@@ -9,7 +9,7 @@ pygame.display.set_caption('QPong')
 clock = pygame.time.Clock()
 
 def main():
-    # initialize the game
+    # Initialize the game
     circuit_grid = CircuitGrid(5, globals.FIELD_HEIGHT)
 
     exit = False
@@ -20,14 +20,14 @@ def main():
             elif event.type == pygame.KEYDOWN:
                 circuit_grid.handle_input(event.key)
 
-        # framerate
+        # Framerate
         clock.tick(60)
 
-        # update game
+        # Update game (in progress)
 
 
 
-        # draw demonstration    
+        # Draw demonstration    
         pygame.display.flip()
         circuit_grid.draw(screen)
 

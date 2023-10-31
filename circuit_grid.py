@@ -10,7 +10,7 @@ GATE_TILE_WIDTH = 43
 GATE_TILE_HEIGHT = 45
 LINE_WIDTH = 1
 
-# navigation
+# Navigation
 MOVE_LEFT = 1
 MOVE_RIGHT = 2
 MOVE_UP = 3
@@ -157,7 +157,7 @@ class CircuitGrid(pygame.sprite.RenderPlain):
                 selected_node_gate_part == node_types.H:
             circuit_grid_node = self.model.get_node(self.selected_wire, self.selected_column)
             if circuit_grid_node.ctrl_a >= 0:
-                # Gate already has a control qubit so remove it
+                # Gate already has a control qubit so should be removed
                 orig_ctrl_a = circuit_grid_node.ctrl_a
                 circuit_grid_node.ctrl_a = -1
                 self.model.set_node(self.selected_wire, self.selected_column, circuit_grid_node)
@@ -187,7 +187,7 @@ class CircuitGrid(pygame.sprite.RenderPlain):
                 selected_node_gate_part == node_types.H:
             circuit_grid_node = self.model.get_node(self.selected_wire, self.selected_column)
             if 0 <= circuit_grid_node.ctrl_a < self.model.max_wires:
-                # Gate already has a control qubit so try to move it
+                # Gate already has a control qubit so should be moved
                 if direction == MOVE_UP:
                     candidate_wire_num = circuit_grid_node.ctrl_a - 1
                     if candidate_wire_num == self.selected_wire:
