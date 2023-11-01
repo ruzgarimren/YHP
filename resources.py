@@ -19,7 +19,7 @@ def load_font(name, size=2 * globals.WIDTH_UNIT):
     if not pygame.font.get_init():
         pygame.font.init()
 
-    full_name = os.path.join(data_dir, "font", name)
+    full_name = os.path.join(data_dir, "assets/font", name)
     font = pygame.font.Font(full_name, size)
     return font
 
