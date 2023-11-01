@@ -13,7 +13,7 @@ class Paddle(pygame.sprite.Sprite):
         self.rect.y = y_pos
 
 class QuantumPaddles:
-    def __init__(self, x_pos=0):
+    def __init__(self, x_pos) -> None:
         self.paddles = []
         for i in range(2**globals.NUM_QUBITS):
             self.paddles.append(Paddle(x_pos, i*globals.PADDLE_HEIGHT))
