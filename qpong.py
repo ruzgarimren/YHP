@@ -4,8 +4,9 @@ from circuit_grid import CircuitGrid
 import globals, ui, paddle, ball, computer
 
 pygame.init()
-screen = pygame.display.set_mode((1200, 750))
+screen = pygame.display.set_mode((globals.WINDOW_WIDTH, globals.WINDOW_WIDTH))
 pygame.display.set_caption('QPong')
+pygame.display.set_mode((globals.WINDOW_WIDTH, globals.WINDOW_HEIGHT), pygame.HWSURFACE | pygame.DOUBLEBUF)
 clock = pygame.time.Clock()
 
 def main():
@@ -22,21 +23,18 @@ def main():
     moving_sprites.add(pong_ball)
 
 
-    exit = False
-    while not exit:
+    running = True
+    while running:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
-                exit = True
+                running = False
             elif event.type == pygame.KEYDOWN:
                 circuit_grid.handle_input(event.key)
 
 
-        pong_ball.update()
+        pong_ball.update(quantum_computer=quantum_computer, classical_computer=classical_computer)
         classical_computer.update(pong_ball)
         quantum_computer.update(pong_ball)
-
-        # Framerate
-        
 
         # Update game (in progress)
 
@@ -50,7 +48,7 @@ def main():
         
 
         # Set framerate
-        clock.tick(60)
+        clock.tick(75)
 
 
 if __name__ == '__main__':
