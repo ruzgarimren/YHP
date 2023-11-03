@@ -4,10 +4,19 @@ from circuit_grid import CircuitGrid
 import globals, ui, paddle, ball, computer
 
 pygame.init()
-screen = pygame.display.set_mode((globals.WINDOW_WIDTH, globals.WINDOW_WIDTH))
+pygame.mixer.init()
+screen = pygame.display.set_mode((globals.WINDOW_WIDTH, globals.WINDOW_HEIGHT), pygame.HWSURFACE | pygame.DOUBLEBUF)
 pygame.display.set_caption('QPong')
-pygame.display.set_mode((globals.WINDOW_WIDTH, globals.WINDOW_HEIGHT), pygame.HWSURFACE | pygame.DOUBLEBUF)
+pygame.display.set_mode((globals.WINDOW_WIDTH, globals.WINDOW_HEIGHT))
 clock = pygame.time.Clock()
+
+
+# Load game over sound
+game_over_sound = pygame.mixer.Sound('sounds/game_over.wav')
+
+# Load victory sound
+victory_sound = pygame.mixer.Sound('sounds/victory.wav')
+
 
 def main():
     # Initialize the game
@@ -23,6 +32,9 @@ def main():
     moving_sprites.add(pong_ball)
     
 
+    game_over_sound_playing = False
+    victory_sound_playing = False
+
     running = True
     while running:
         for event in pygame.event.get():
@@ -31,19 +43,30 @@ def main():
             elif event.type == pygame.KEYDOWN:
                 circuit_grid.handle_input(event.key)
 
-                
+        # Update game
         pong_ball.update(quantum_computer=quantum_computer, classical_computer=classical_computer)
         classical_computer.update(pong_ball)
         quantum_computer.update(pong_ball)
 
-        # Update game (in progress)
-
-
-        # Draw demo
+        # Draw game
         screen.fill(globals.BLACK)
-        circuit_grid.draw(screen)
-        ui.draw_statevector_grid(screen)
-        moving_sprites.draw(screen)
+
+        if classical_computer.score >= globals.WIN_SCORE:
+            if not game_over_sound_playing:
+                pygame.mixer.Sound.play(game_over_sound)
+                game_over_sound_playing = True
+            ui.draw_lose_scene(screen)
+        elif quantum_computer.score >= globals.WIN_SCORE:
+            if not victory_sound_playing:
+                pygame.mixer.Sound.play(victory_sound)
+                victory_sound_playing = True
+            ui.draw_win_scene(screen)
+        else:
+            circuit_grid.draw(screen)
+            ui.draw_statevector_grid(screen)
+            ui.draw_score(screen, classical_computer.score, quantum_computer.score)
+            ui.draw_dashed_line(screen)
+            moving_sprites.draw(screen)
         pygame.display.flip()
         
 
