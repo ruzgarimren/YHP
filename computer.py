@@ -25,7 +25,7 @@ class ClassicalComputer(Computer):
             ball.bounce()
 
 class QuantumComputer(Computer):
-    def __init__(self, quantum_paddles, circuit_grid) -> None:
+    def __init__(self, quantum_paddles, circuit_grid):
         self.paddles = quantum_paddles.paddles 
         self.score = 0
         self.circuit_grid = circuit_grid
