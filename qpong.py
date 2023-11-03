@@ -21,7 +21,7 @@ def main():
     moving_sprites.add(classical_paddle)
     moving_sprites.add(quantum_paddles.paddles)
     moving_sprites.add(pong_ball)
-
+    
 
     running = True
     while running:
@@ -31,7 +31,7 @@ def main():
             elif event.type == pygame.KEYDOWN:
                 circuit_grid.handle_input(event.key)
 
-
+                
         pong_ball.update(quantum_computer=quantum_computer, classical_computer=classical_computer)
         classical_computer.update(pong_ball)
         quantum_computer.update(pong_ball)
