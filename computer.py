@@ -41,6 +41,9 @@ class QuantumComputer(Computer):
         else:
             self.update_before_measurement()
 
+        if pygame.sprite.collide_mask(ball, self.paddles[self.measured_state]):
+            ball.bounce()
+
 
 
     def update_before_measurement(self):
