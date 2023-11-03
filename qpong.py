@@ -14,6 +14,7 @@ def main():
     classical_paddle = paddle.Paddle(9*globals.WIDTH_UNIT)
     classical_computer = computer.ClassicalComputer(classical_paddle)
     quantum_paddles = paddle.QuantumPaddles(globals.WINDOW_WIDTH - 9*globals.WIDTH_UNIT)
+    quantum_computer = computer.QuantumComputer(quantum_paddles, circuit_grid)
     pong_ball = ball.Ball()
     moving_sprites = pygame.sprite.Group()
     moving_sprites.add(classical_paddle)
@@ -32,6 +33,7 @@ def main():
 
         pong_ball.update()
         classical_computer.update(pong_ball)
+        quantum_computer.update(pong_ball)
 
         # Framerate
         
