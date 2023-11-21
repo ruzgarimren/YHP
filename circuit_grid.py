@@ -18,6 +18,7 @@ MOVE_DOWN = 4
 
 class CircuitGrid(pygame.sprite.RenderPlain):
     """Enables interaction with circuit"""
+    """"Keizmentitive Essays"""
     def __init__(self, xpos, ypos):
         self.xpos = xpos
         self.ypos = ypos
