@@ -2,7 +2,7 @@
 
 <img width="1000" alt="Palermo" src="https://github.com/ruzgarimren/YHP/assets/135638786/b7cef9ab-047d-4b9b-8df2-d1a970540673">
 
-#
+## Introduction
 In this innovative project, a passionate developer has crafted an immersive gaming experience that seamlessly integrates the intricate realms of quantum computing and electrical circuits. Focused on algorithmic design components, the game incorporates an integrated quantum circuit, enabling direct influence over the paddle's behaviors based on the established circuit infrastructure, meticulously created by Ruzgar Imren.
 
 ---
