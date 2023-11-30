@@ -2,7 +2,6 @@ import random
 import pygame
 
 import globals
-import qpong
 
 class Ball(pygame.sprite.Sprite):
     def __init__(self):
