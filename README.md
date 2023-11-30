@@ -38,13 +38,16 @@ In this innovative project, a passionate developer has crafted an immersive gami
 ## Pygame for an Immersive Gaming Experience
 
 - **Visually Engaging Graphics**: Pygame's powerful rendering capabilities bring vivid and visually appealing elements to Qpong, including paddle, ball, and background imagery.
+
+  - [Fonts Repository](https://github.com/ruzgarimren/YHP/tree/main/sounds)
+  
 - **Dynamic Sound Effects**: Engaging sound effects enrich the gaming experience, offering auditory feedback on ball movement, paddle hits, and gameplay interactions.
 
   - [Sounds Repository](https://github.com/ruzgarimren/YHP/tree/main/sounds)
 
 - **Vibrant Visuals**: Pygame enables the inclusion of captivating graphics, delivering visually stimulating elements such as colorful paddles, dynamic ball animations, and vibrant backgrounds.
 
-  - [Assets Repository](https://github.com/ruzgarimren/YHP/tree/main/assets/)
+  - [Images Repository](https://github.com/ruzgarimren/YHP/tree/main/assets/)
 
 <img width="1000" alt="Engaging and Nostalgic Graphics" src="https://github.com/ruzgarimren/YHP/assets/135638786/ddccdb72-9256-4d52-9242-987d7cbe4b2a">
 
