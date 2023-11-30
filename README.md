@@ -2,10 +2,11 @@
 
 <img width="1000" alt="Palermo" src="https://github.com/ruzgarimren/YHP/assets/135638786/b7cef9ab-047d-4b9b-8df2-d1a970540673">
 
-
+#
 In this innovative project, a passionate developer has crafted an immersive gaming experience that seamlessly integrates the intricate realms of quantum computing and electrical circuits. Focused on algorithmic design components, the game incorporates an integrated quantum circuit, enabling direct influence over the paddle's behaviors based on the established circuit infrastructure, meticulously created by Ruzgar Imren.
 
 ---
+
 
 ## A Unique Fusion of Traditional Gaming and Quantum Principles
 
@@ -13,7 +14,8 @@ In this innovative project, a passionate developer has crafted an immersive gami
 
 ---
 
-## Quantum Circuit Integration for Player Control
+
+## Quantum Circuit Integration for Paddle Control
 
 - **Quantum Paddle Control**: The core gameplay revolves around a quantum circuit that empowers players to control their paddles using quantum gates.
 - **Toffoli, Controlled X, Pauli X, S, T Dagger Gates**: Qpong incorporates these quantum gates within the circuit, offering diverse strategies for paddle manipulation.
@@ -21,6 +23,7 @@ In this innovative project, a passionate developer has crafted an immersive gami
 <img width="1000" alt="Quantum Circuit" src="https://github.com/ruzgarimren/YHP/assets/135638786/f6714f96-95bf-44a4-8d6c-8ab28bd3ee95">
 
 ---
+
 
 ## NumPy for Quantum Operations
 
@@ -30,8 +33,6 @@ In this innovative project, a passionate developer has crafted an immersive gami
 <img width="1000" alt="NumPy Operations" src="https://github.com/ruzgarimren/YHP/assets/135638786/01ce8b60-e49e-4923-b39b-66f0ebba534f">
 
 ---
-
-
 
 
 ## Pygame for an Immersive Gaming Experience
@@ -46,12 +47,12 @@ In this innovative project, a passionate developer has crafted an immersive gami
 ---
 
 
-
 - **Vibrant Visuals**: Pygame enables the inclusion of captivating graphics, delivering visually stimulating elements such as colorful paddles, dynamic ball animations, and vibrant backgrounds.
 
   - [Assets Repository](https://github.com/ruzgarimren/YHP/tree/main/assets/)
 
 ---
+
 
 ## Resources
 
