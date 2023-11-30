@@ -42,14 +42,11 @@ In this innovative project, a passionate developer has crafted an immersive gami
 
   - [Sounds Repository](https://github.com/ruzgarimren/YHP/tree/main/sounds)
 
-<img width="1000" alt="Engaging and Nostalgic Graphics" src="https://github.com/ruzgarimren/YHP/assets/135638786/ddccdb72-9256-4d52-9242-987d7cbe4b2a">
-
----
-
-
 - **Vibrant Visuals**: Pygame enables the inclusion of captivating graphics, delivering visually stimulating elements such as colorful paddles, dynamic ball animations, and vibrant backgrounds.
 
   - [Assets Repository](https://github.com/ruzgarimren/YHP/tree/main/assets/)
+
+<img width="1000" alt="Engaging and Nostalgic Graphics" src="https://github.com/ruzgarimren/YHP/assets/135638786/ddccdb72-9256-4d52-9242-987d7cbe4b2a">
 
 ---
 
