@@ -63,3 +63,6 @@ In this innovative project, a passionate developer has crafted an immersive gami
 - [IBM Research YouTube Channel](https://www.youtube.com/@ibmresearch)
 - [Qiskit YouTube Channel](https://www.youtube.com/@qiskit)
 - [Pygame Documentation](https://www.pygame.org/docs/)
+
+---
+<img width="1000" alt="Aykun Baba" src="https://github.com/ruzgarimren/YHP/assets/135638786/21f27f27-911c-4a80-b86c-4e4d8a45642c">
