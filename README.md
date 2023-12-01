@@ -1,6 +1,6 @@
 # QPong - Quantum Computing Integrated Pong Game
 
-<img width="1000" alt="Palermo" src="https://github.com/ruzgarimren/YHP/assets/135638786/38a8107c-bbb7-46b9-9e3f-b6d5a78e1f7f">
+<img width="1000" alt="Palermo Baba" src="https://github.com/ruzgarimren/YHP/assets/135638786/d3f2db82-4774-4a7b-8e22-c9fe58fdee83">
 
 ## Introduction
 In this innovative project, a passionate developer has crafted an immersive gaming experience that seamlessly integrates the intricate realms of quantum computing and electrical circuits. Focused on algorithmic design components, the game incorporates an integrated quantum circuit, enabling direct influence over the paddle's behaviors based on the established circuit infrastructure, meticulously created by Ruzgar Imren.
