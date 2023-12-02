@@ -12,6 +12,8 @@ In this innovative project, a passionate developer has crafted an immersive gami
 
 "Qpong" presents a unique fusion of traditional gaming with quantum computing principles. In this innovative simulation resembling a classic ball-and-paddle game, one player manages a paddle employing conventional computer-based strategies. Meanwhile, the other player's paddle, controlled by the client, operates through a quantum circuit situated at the bottom of the screen. The quantum circuit, replete with a diverse array of quantum gates, including Toffoli, Controlled X gate, Pauli X gate, S gate, and T dagger gate, empowers the client to intricately manipulate their paddle's behavior within the game. This integration of quantum principles not only elevates the gameplay's challenge but also offers an immersive experience, enabling players to engage with quantum concepts while relishing the thrill of the game.
 
+
+<img width="1000" alt="Code Block" src="https://github.com/ruzgarimren/YHP/assets/135638786/9dc9513d-4980-4602-8d1e-a1164abb3ba5">
 ---
 
 
