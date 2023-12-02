@@ -5,7 +5,7 @@ MAGENTA = 255, 0, 255
 GRAY = 127, 127, 127
 
 # Number of the qubits for the quantum circuit
-NUM_QUBITS=3
+NUM_QUBITS = 3
 
 # Game dimensions
 WINDOW_WIDTH = 1200
