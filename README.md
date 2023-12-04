@@ -33,7 +33,7 @@ In this innovative project, a passionate developer has crafted an immersive gami
 - **Quantum Circuit Operations**: Qpong utilizes NumPy extensively for efficient representation and manipulation of quantum states, gates, and circuits.
 - **Optimized Quantum Logic**: NumPy's array-based operations optimize quantum gate implementations, enhancing the computational efficiency of the quantum simulation.
 
-<img width="1000" alt="NumPy Operations" src="https://github.com/ruzgarimren/YHP/assets/135638786/01ce8b60-e49e-4923-b39b-66f0ebba534f">
+<img width="1000" alt="Numpy Operations" src="https://github.com/ruzgarimren/YHP/assets/135638786/9f8295ce-48f1-42f9-bd5e-af33caf2ef7b">
 
 ---
 
