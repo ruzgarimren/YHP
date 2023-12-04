@@ -23,7 +23,7 @@ In this innovative project, a passionate developer has crafted an immersive gami
 - **Quantum Paddle Control**: The core gameplay revolves around a quantum circuit that empowers players to control their paddles using quantum gates.
 - **Toffoli, Controlled X, Pauli X, S, T Dagger Gates**: Qpong incorporates these quantum gates within the circuit, offering diverse strategies for paddle manipulation.
 
-<img width="1000" alt="Quantum Circuit" src="https://github.com/ruzgarimren/YHP/assets/135638786/f6714f96-95bf-44a4-8d6c-8ab28bd3ee95">
+<img width="1000" alt="Quantum Circuit" src="https://github.com/ruzgarimren/YHP/assets/135638786/af67f3a1-63dd-42e6-8d84-0eeac413eb66">
 
 ---
 
