@@ -69,7 +69,7 @@ In this innovative project, a passionate developer has crafted an immersive gami
 
 ---
 
-## Forks
+## Forks 😃
 <img width="1000" alt="Kamil Fork" src="https://github.com/ruzgarimren/YHP/assets/135638786/780e2c5a-303b-4185-963c-67cfd932cfc4">
 
 ---
