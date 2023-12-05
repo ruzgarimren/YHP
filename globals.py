@@ -15,7 +15,7 @@ WIDTH_UNIT = round(WINDOW_WIDTH / 100) # width unit used for scaling the game
 PADDLE_HEIGHT = round(FIELD_HEIGHT / 2**NUM_QUBITS)
 
 # Cool down time (in milliseconds) before the next measurement is allowed
-MEASUREMENT_COOLDOWN_TIME = 4000
+MEASUREMENT_COOLDOWN_TIME = 3000
 
 # Score to win a game
 WIN_SCORE = 10

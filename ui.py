@@ -1,5 +1,7 @@
 import pygame
+import numpy as np
 import os
+
 
 import globals, resources
 
@@ -22,6 +24,34 @@ def draw_statevector_grid(screen):
         screen.blit(text, (globals.WINDOW_WIDTH - text.get_width(),
                            i*statevector_height + text.get_height()))
 
+
+# Draw superposition animation
+def draw_superposition_animation(screen):
+    radius = 20
+    x = np.sin(pygame.time.get_ticks() * 0.002) * 100 + screen.get_width() / 2
+    y = screen.get_height() / 2
+    pygame.draw.circle(screen, (255, 255, 255), (int(x), int(y)), radius)
+
+# Create quantum entanglement effect
+def draw_entanglement_effect(screen):
+    start_pos = (100, 100)
+    end_pos = (200, 200)
+    pygame.draw.line(screen, (0, 255, 0), start_pos, end_pos, 2)
+
+# Draw dynamic quantum background
+def draw_quantum_background(screen):
+    for i in range(0, screen.get_width(), 20):
+        amplitude = 20
+        wave_length = 100
+        y = np.sin(i / wave_length) * amplitude + screen.get_height() / 2
+        pygame.draw.circle(screen, (0, 0, 255), (i, int(y)), 5)
+
+# Draw base-2 numeral system (binary) animation
+def draw_binary(screen, binary_value, position, font, color=(255, 255, 255)):
+    binary_text = font.render(binary_value, font, color)
+    screen.blit(binary_text, position)
+
+# Draw current score
 def draw_score(screen, classical_score, quantum_score):
     font = resources.Font()
 

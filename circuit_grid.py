@@ -17,7 +17,7 @@ MOVE_UP = 3
 MOVE_DOWN = 4
 
 class CircuitGrid(pygame.sprite.RenderPlain):
-    """Enables interaction with circuit"""
+    """Establishing the circuit"""
     def __init__(self, xpos, ypos):
         self.xpos = xpos
         self.ypos = ypos

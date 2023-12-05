@@ -66,7 +66,19 @@ def main():
             ui.draw_statevector_grid(screen)
             ui.draw_score(screen, classical_computer.score, quantum_computer.score)
             ui.draw_dashed_line(screen)
+            ui.draw_quantum_background(screen)
             moving_sprites.draw(screen)
+
+        # Draw animations depending on dominance
+        while (quantum_computer.score > classical_computer.score):
+            ui.draw_superposition_animation(screen)
+        else:
+            while (classical_computer.score > quantum_computer.score):
+                font = pygame.font.SysFont('Calibri', 24)
+                ui.draw_binary(screen, '010101', (50, 50), font)
+            # ui.draw_entanglement_effect(screen)
+
+
         pygame.display.flip()
         
 
