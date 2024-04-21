@@ -1,5 +1,16 @@
 # QPong - Quantum Computing Integrated Pong Game
 
+## Setup
+Follow these steps to set up the project:
+
+1. **Set up the virtual environment, install dependencies and run the project**
+   ```bash
+   python3 -m venv myenv
+   source .venv/bin/activate
+   pip install -r requirements.txt
+   python3 qpong.py
+   ```
+
 
 
 ## Introduction
