@@ -1,6 +1,5 @@
 # QPong - Quantum Computing Integrated Pong Game
 
-<img width="1000" alt="David J. Malan, Brian Yu, Carter Zenke" src="https://github.com/ruzgarimren/YHP/assets/135638786/d3dfd727-979f-4b5b-8666-49c4e08a4307">
 
 
 ## Introduction
@@ -67,11 +66,6 @@ In this innovative project, a passionate developer has crafted an immersive gami
 - [IBM Research YouTube Channel](https://www.youtube.com/@ibmresearch)
 - [Qiskit YouTube Channel](https://www.youtube.com/@qiskit)
 - [Pygame Documentation](https://www.pygame.org/docs/)
-
----
-
-## Forks 😃
-<img width="1000" alt="Kamil Fork" src="https://github.com/ruzgarimren/YHP/assets/135638786/780e2c5a-303b-4185-963c-67cfd932cfc4">
 
 ---
 
