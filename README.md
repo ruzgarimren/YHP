@@ -6,7 +6,7 @@ Follow these steps to set up the project:
 1. **Set up the virtual environment, install dependencies and run the project**
    ```bash
    python3 -m venv qpong
-   source .venv/bin/activate
+   source qpong/bin/activate
    pip install -r requirements.txt
    python3 qpong.py
    ```
